@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "block3_lists",
+  "info": {
+    "singularName": "block3-list",
+    "pluralName": "block3-lists",
+    "displayName": "Block3List",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

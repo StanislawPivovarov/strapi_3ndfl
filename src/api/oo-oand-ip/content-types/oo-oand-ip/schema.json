@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "oo_oand_ips",
+  "info": {
+    "singularName": "oo-oand-ip",
+    "pluralName": "oo-oand-ips",
+    "displayName": "OOOandIP",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "text"
+    },
+    "buttontext": {
+      "type": "string"
+    },
+    "pic": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "oo_oand_ip_lists": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::oo-oand-ip-list.oo-oand-ip-list"
+    }
+  }
+}

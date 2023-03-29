@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "block6mails",
+  "info": {
+    "singularName": "block6mail",
+    "pluralName": "block6mails",
+    "displayName": "block6mail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "emails": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::email.email"
+    }
+  }
+}

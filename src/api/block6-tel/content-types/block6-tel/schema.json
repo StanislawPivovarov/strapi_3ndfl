@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "block6_tels",
+  "info": {
+    "singularName": "block6-tel",
+    "pluralName": "block6-tels",
+    "displayName": "Block6Tel"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

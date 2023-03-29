@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "block4_lists",
+  "info": {
+    "singularName": "block4-list",
+    "pluralName": "block4-lists",
+    "displayName": "block4List"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "innerText": {
+      "type": "text"
+    }
+  }
+}

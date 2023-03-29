@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "socialmedias",
+  "info": {
+    "singularName": "socialmedia",
+    "pluralName": "socialmedias",
+    "displayName": "socialmedia"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "followers": {
+      "type": "text"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

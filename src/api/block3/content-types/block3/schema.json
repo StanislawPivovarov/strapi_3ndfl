@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "block3s",
+  "info": {
+    "singularName": "block3",
+    "pluralName": "block3s",
+    "displayName": "Block3"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "text"
+    }
+  }
+}

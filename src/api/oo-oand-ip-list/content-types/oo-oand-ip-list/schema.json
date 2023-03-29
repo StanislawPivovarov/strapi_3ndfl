@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "oo_oand_ip_lists",
+  "info": {
+    "singularName": "oo-oand-ip-list",
+    "pluralName": "oo-oand-ip-lists",
+    "displayName": "OOOandIP-list"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    }
+  }
+}

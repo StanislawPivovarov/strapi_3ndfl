@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "block6_socials",
+  "info": {
+    "singularName": "block6-social",
+    "pluralName": "block6-socials",
+    "displayName": "Block6Social",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "socialmedias": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::socialmedia.socialmedia"
+    }
+  }
+}
